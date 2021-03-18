@@ -13,7 +13,7 @@ This project contains two modules:
 - **Recommendation:** we used (an edited version) of Librec 2.0.0 library to run the algorithms of our experiments (See [librec-2.0.0](https://github.com/elikary/tois2021/tree/main/librec-2.0.0) folder)
 - **Evaluation:** we created some scripts in Python to carry out evaluation (See [FP_metrics](https://github.com/elikary/tois2021/tree/main/FP_metrics) folder)
 
-We have included instructions on how to run each module, please refer to each folder for more information.
+We have included instructions (README files) on how to run each module, please refer to each folder for more information.
 
 ## Datasets 
 For convinience, we have uploaded binarized versions of the datasets used for all the experiments presented in the paper.  Please see the folder  [`tois2021/librec-2.0.0/data`](https://github.com/elikary/tois2021/tree/main/tois2021/librec-2.0.0/data) 
