@@ -1,9 +1,9 @@
 # Popularity Bias in False-Positive Metrics for Recommender Systems Evaluation 
-[TOIS2021 paper](http://KKKKKKKKKKKKKKK.org/publications/my_papers/sigir2020.pdf)
+[TOIS2021 paper](https://github.com/elikary/tois2021/paper/TOIS_paper_on_false_positive_metrics.pdf)
 
-> E. Mena-Maldonado, R. Cañamares, [P. Castells](http://ir.ii.uam.es/castells), Y. Ren and [M.Sanderson](http://marksanderson.org). Agreement and Disagreement between True and False-Positive Metrics in Recommender Systems Evaluation. 43rd ACM International Conference on Research and Development in Information Retrieval (SIGIR 2020). ACM, Virtual Event, China.
+> E. Mena-Maldonado, R. Cañamares, [P. Castells](http://ir.ii.uam.es/castells), Y. Ren and [M.Sanderson](http://marksanderson.org). 2021. Popularity Bias in False-Positive Metrics for Recommender Systems Evaluation. Transaction On Information Systems (TOIS).
 
-Paper DOI (https://doi.org/10.1145/3397271.3401096)
+Paper DOI (https://doi.org/10.1145/3452740)
 
 ## Sotware Required
 This project contains two modules:
@@ -13,7 +13,7 @@ This project contains two modules:
 
 ## Datasets 
 For convinience we have uploaded binarized versions of the datasets used for all the experiments presented in the paper.  Please see the folder:
-`sigir2020/librec-2.0.0/data`
+`tois2021/librec-2.0.0/data`
 - MOVIELENS 1M (Observed) Train and (Observed) test
 - CM100K (Observed) Train and (Observed and True) tests
 - CM100K SYNTHETIC (Observed) Train and (Observed and True) tests
