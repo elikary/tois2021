@@ -6,9 +6,9 @@ To carry out evaluation with precision, anti-precision, recall and fallout on al
     $ cd tois2021/FP_metrics/scripts
     $ python main_prec.py 
 
-After the main script runs, you will see the results per each fold in `~/tois2020/FP_metrics/evaluation/` as `<dataset-name>/<dataset-name_fold$i_prec.csv>`. (See the image below)
+After the main script runs, you will see the results per each fold in `~/tois2020/FP_metrics/evaluation/` as `<dataset-name>/<dataset-name_fold$i_prec.csv>`. 
 
-![](https://github.com/elikary/tois2021/blob/master/images/folds.png)
+![](https://github.com/elikary/tois2021/blob/main/images/folds.png)
 
 Next, to compute the folds average per each dataset run:
 
@@ -19,9 +19,9 @@ Others are available:
 - for MRR and anti-MRR, use "mrr"
 - for nDCG and nDCL, use "ndcg"
 
-The results will be saved in `FP_metrics/evaluation/` as `<dataset-name>/<dataset-name_k_prec.csv>`. For instance `FP_metrics/evaluation/cm100k_observed/cm100k_observed_10_prec.csv`. (See the image below)
+The results will be saved in `FP_metrics/evaluation/` as `<dataset-name>/<dataset-name_k_prec.csv>`. For instance `FP_metrics/evaluation/cm100k_observed/cm100k_observed_10_prec.csv`. 
 
-![](https://github.com/elikary/tois2021/blob/master/images/cv.png)
+![](https://github.com/elikary/tois2021/blob/main/images/cv.png)
 
 ### System Requirements
 
