@@ -1,5 +1,5 @@
 # Popularity Bias in False-Positive Metrics for Recommender Systems Evaluation 
-[TOIS2021 paper](https://github.com/elikary/tois2021/paper/TOIS_paper_on_false_positive_metrics.pdf)
+[TOIS2021 paper](https://github.com/elikary/tois2021/blob/main/paper/TOIS_paper_on_false_positive_metrics.pdf)
 
 > E. Mena-Maldonado, R. Cañamares, [P. Castells](http://ir.ii.uam.es/castells), Y. Ren and [M.Sanderson](http://marksanderson.org). 2021. Popularity Bias in False-Positive Metrics for Recommender Systems Evaluation. Transaction On Information Systems (TOIS).
 
