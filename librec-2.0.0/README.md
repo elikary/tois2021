@@ -1,4 +1,6 @@
 ## Recommendation
+This step should be done before [Evaluation](https://github.com/elikary/tois2021/tree/main/FP_metrics)
+
 We used the recommendation library [Librec-2.0.0](https://www.librec.net/). In this library there is a range of algorithms to produce recommendations.
 To run our experiments we included some extra algorithms to test the optimal ranking functions for Precision and Anti-Precision
 
@@ -14,15 +16,15 @@ Here is the list of the new included algorithms:
 Please refer to `librec-core.src.main.java.recommender.baseline` to see their implementations.
 
 ### Running recommendation
-First, download the `sigir2020` folder into your `home` directory.
+First, download the `tois2021` folder into your `home` directory.
 
-`sigir2020` contains 2 folders:
+`tois2021` contains 2 folders:
 - `FP_metrics`
 - `librec-2.0.0`
 
-For recommendation execution run:
+For recommendation run:
 
-    $ cd ~/sigir2020/librec-2.0.0/bin
+    $ cd ~/tois2021/librec-2.0.0/bin
     $ for i in 1 2 3 4 5; do ./run_cross cm100k_observed 10 $i; done
 
 + `run_cross` script runs recommendation using 5-fold cross_validation.
@@ -40,7 +42,7 @@ The final folder organization should be as follows:
  
  For instance, `librec-2.0.0/result/cm100k_observed/fold1/mostpopular`
  
- NOTE: To run scripts in unix systems, you need to assign the right persmissions to each file. Run:
+ NOTE: To run the scripts in unix systems, you need to assign the right persmissions to each file. Run:
 
     $ chmod +x run_cross
     $ chmod +x movefolders_cv
